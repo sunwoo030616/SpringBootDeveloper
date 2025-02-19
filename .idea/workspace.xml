@@ -4,67 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="127b50ff-cdcc-4509-8278-70ec37b7f21a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/config/TokenAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/config/WebOAuthSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/config/jwt/JwtProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/config/jwt/TokenProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/config/oauth/OAuth2AuthorizationRequestBasedOnCookieRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/config/oauth/OAuth2SuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/config/oauth/OAuth2UserCustomService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/controller/BlogApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/controller/BlogViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/controller/ExampleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/controller/TokenApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/controller/UserApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/controller/UserViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/domain/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/domain/RefreshToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/dto/AddArticleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/dto/AddUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/dto/ArticleListViewResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/dto/ArticleResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/dto/ArticleViewResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/dto/CreateAccessTokenRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/dto/CreateAccessTokenResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/dto/UpdateArticleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/repository/BlogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/repository/RefreshTokenRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/service/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/service/RefreshTokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/service/TokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/service/UserDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/util/CookieUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/article.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/token.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/example.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/newArticle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/oauthLogin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/parksunwoo/springbootdeveloper/controller/BlogApiControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/parksunwoo/springbootdeveloper/controller/TokenApiControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/parksunwoo/springbootdeveloper/controller/config/jwt/JwtFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/me/parksunwoo/springbootdeveloper/controller/config/jwt/TokenProviderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/SpringBootDeveloperApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/SpringBootDeveloperApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/parksunwoo/springbootdeveloper/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/article.html" afterDir="false" />
-    </list>
+    <list default="true" id="127b50ff-cdcc-4509-8278-70ec37b7f21a" name="Changes" comment="springboot_finish" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -349,12 +289,25 @@
       <option name="presentableId" value="Default" />
       <updated>1737782234510</updated>
       <workItem from="1737782235470" duration="935000" />
-      <workItem from="1739609549670" duration="39392000" />
+      <workItem from="1739609549670" duration="39702000" />
     </task>
+    <task id="LOCAL-00001" summary="springboot_finish">
+      <option name="closed" value="true" />
+      <created>1739997977327</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739997977327</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="springboot_finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot_finish" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
